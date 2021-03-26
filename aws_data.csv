@@ -1,0 +1,15 @@
+,region,territory,name,daysSinceLastCase,transmissionType,newDeaths,deaths,cases,newCases,reportDate,reportNumber
+0,African Region,False,South Africa,0,0,121,11677,583653,4513,2020-08-16T00:00:00.000Z,209
+1,African Region,False,Nigeria,0,0,1,974,48770,325,2020-08-16T00:00:00.000Z,209
+2,African Region,False,Ethiopia,0,0,17,509,28894,1652,2020-08-16T00:00:00.000Z,209
+3,African Region,False,Madagascar,0,0,2,166,13724,81,2020-08-16T00:00:00.000Z,209
+4,African Region,False,Ghana,0,0,0,231,42210,147,2020-08-16T00:00:00.000Z,209
+5,African Region,False,Democratic Republic of the Congo,0,0,1,239,9637,33,2020-08-16T00:00:00.000Z,209
+6,African Region,False,Algeria,0,0,9,1360,38133,469,2020-08-16T00:00:00.000Z,209
+7,African Region,False,Kenya,0,0,7,472,29849,515,2020-08-16T00:00:00.000Z,209
+8,African Region,False,Gabon,1,0,0,51,8225,0,2020-08-16T00:00:00.000Z,209
+9,African Region,False,Senegal,0,0,2,251,12032,160,2020-08-16T00:00:00.000Z,209
+10,African Region,False,Zimbabwe,0,6,2,130,5176,104,2020-08-16T00:00:00.000Z,209
+11,African Region,False,Cote dIvoire,0,0,0,108,16993,58,2020-08-16T00:00:00.000Z,209
+12,African Region,False,Cameroon,2,0,0,401,18469,0,2020-08-16T00:00:00.000Z,209
+13,African Region,False,Central African Republic,3,0,0,61,4652,0,2020-08-16T00:00:00.000Z,209
