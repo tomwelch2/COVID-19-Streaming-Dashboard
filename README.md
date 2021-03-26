@@ -28,9 +28,15 @@ To run the code, ensure that ports **2181** and **9092** are free for use by the
 and Zookeeper instances that will stream the data to the consumer and be used in the
 dashboard.
 
-After you have checked that the ports are free, edit the ```.env``` files in the
-**consumer** and **producer** folders to contain credentials specific to your
-AWS account so that the file can be produced and accessed by the dashboard.
+After you have checked that the ports are free, edit the ```.env``` file in the
+**consumer** folder to contain credentials specific to your
+AWS account so that the file can be produced and accessed by the dashboard. The
+.env file in the ```producer``` folder contains API keys and API hosts used for
+interaction with the API returning the COVID-19 Data. Please not that these API
+keys are not sensitive as they are the same for every API hosted on the website
+that offers this particular API and aren't issued on a user-by-user basis, so
+they are fine to publish on github and will have no negative outcome, if used
+by the general public, on me. 
 
 Once these environment variables have been set, run ```docker-compose up --build```
 to create the Kafka, Zookeeper and dashboard instances - then run the ```producer/script.py```
